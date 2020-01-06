@@ -1,0 +1,144 @@
+.bg-_OK {
+    width: 32px; height: 28px;
+    background: url('css_sprites.png') -197px -10px;
+}
+
+.bg-ALARM {
+    width: 32px; height: 31px;
+    background: url('css_sprites.png') -145px -62px;
+}
+
+.bg-BOOK_2 {
+    width: 32px; height: 32px;
+    background: url('css_sprites.png') -93px -10px;
+}
+
+.bg-BULLSEYE {
+    width: 32px; height: 32px;
+    background: url('css_sprites.png') -10px -91px;
+}
+
+.bg-dribbble {
+    width: 16px; height: 16px;
+    background: url('css_sprites.png') -197px -153px;
+}
+
+.bg-EQUALIZER {
+    width: 28px; height: 32px;
+    background: url('css_sprites.png') -197px -58px;
+}
+
+.bg-facebook__1_ {
+    width: 8px; height: 16px;
+    background: url('css_sprites.png') -289px -10px;
+}
+
+.bg-facebook {
+    width: 12px; height: 26px;
+    background: url('css_sprites.png') -249px -102px;
+}
+
+.bg-google_plus {
+    width: 16px; height: 14px;
+    background: url('css_sprites.png') -46px -240px;
+}
+
+.bg-HOME {
+    width: 32px; height: 31px;
+    background: url('css_sprites.png') -10px -143px;
+}
+
+.bg-IMAGE {
+    width: 32px; height: 32px;
+    background: url('css_sprites.png') -62px -91px;
+}
+
+.bg-instagram__1_ {
+    width: 16px; height: 16px;
+    background: url('css_sprites.png') -102px -194px;
+}
+
+.bg-instagram {
+    width: 26px; height: 26px;
+    background: url('css_sprites.png') -10px -194px;
+}
+
+.bg-LINE_GRAPH {
+    width: 32px; height: 32px;
+    background: url('css_sprites.png') -145px -10px;
+}
+
+.bg-MAGNIFYING_GLASS {
+    width: 18px; height: 18px;
+    background: url('css_sprites.png') -249px -148px;
+}
+
+.bg-PICTURE__1_ {
+    width: 30px; height: 30px;
+    background: url('css_sprites.png') -62px -143px;
+}
+
+.bg-PICTURE {
+    width: 30px; height: 30px;
+    background: url('css_sprites.png') -112px -143px;
+}
+.bg-PIN_2 {
+    width: 20px; height: 26px;
+    background: url('css_sprites.png') -249px -10px;
+}
+
+.bg-pinterest__1_ {
+    width: 13px; height: 16px;
+    background: url('css_sprites.png') -162px -143px;
+}
+
+.bg-pinterest {
+    width: 20px; height: 26px;
+    background: url('css_sprites.png') -249px -56px;
+}
+
+.bg-SHOPPING_CART {
+    width: 18px; height: 15px;
+    background: url('css_sprites.png') -249px -186px;
+   
+}
+
+.bg-SPEECH_4 {
+    width: 63px; height: 61px;
+    background: url('css_sprites.png') -10px -10px;
+}
+
+.bg-SPEECH_BUBBLE_2 {
+    width: 16px; height: 15px;
+    background: url('css_sprites.png') -10px -240px;
+}
+
+.bg-tumblr {
+    width: 10px; height: 16px;
+    background: url('css_sprites.png') -114px -91px;
+}
+
+.bg-twitter__1_ {
+    width: 16px; height: 14px;
+    background: url('css_sprites.png') -82px -240px;
+}
+
+.bg-twitter {
+    width: 26px; height: 22px;
+    background: url('css_sprites.png') -56px -194px;
+}
+
+.bg-USERS {
+    width: 32px; height: 23px;
+    background: url('css_sprites.png') -197px -110px;
+}
+
+.bg-VIEW {
+    width: 20px; height: 12px;
+    background: url('css_sprites.png') -138px -194px;
+}
+
+.bg-youtube {
+    width: 16px; height: 12px;
+    background: url('css_sprites.png') -178px -194px;
+}

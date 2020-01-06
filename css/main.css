@@ -1,0 +1,405 @@
+@font-face{
+    src: url(../fons/KaushanScript-Regular.ttf);
+    font-family: "Kaushan Script";
+}
+@font-face{
+    src: url(../fons/Montserrat-Bold.ttf);
+    font-family: Montserrat;
+}
+@font-face{
+    src: url(../fons/Montserrat-Regular.ttf);
+    font-family: Montserrat;
+}
+@font-face{
+    src: url(../fons/Montserrat-Bold.ttf);
+    font-family: "Montserrat - Bold";
+}
+@font-face{
+    src: url(../fons/Montserrat-Regular.ttf);
+    font-family: "Roboto - Light Italic";
+}
+@font-face{
+    src: url(../fons/Roboto-Regular.ttf);
+    font-family: Roboto;
+}
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+ul,
+li,
+article,
+section,
+aside,
+header,
+footer {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+.container-fluid{
+max-width: 1920px;
+margin: 0 auto;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.menu ul li .active{
+    color: #fce38a;
+}
+header .header-bg{
+background-image: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%), url(../img/header-bg.png);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-attachment: fixed;
+}
+header .menu{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    color: #ffffff;
+    
+    
+}
+header .menu ul{
+    max-width: 560px;
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-end;
+    
+}
+header .menu ul li{
+    flex-grow: 1;
+    position: relative;
+    animation: menu 1s ease-in-out;
+    
+}
+header .menu ul li:not(:last-of-type){
+    margin-right: 10px;
+}
+header .menu h1{
+font-size: 30px;
+font-weight: 700;
+margin-top: 25px;
+animation: menu 1s ease-in-out;
+}
+header .menu ul li a{
+color: #ffffff;
+font-size: 14px;
+display: block;
+
+} 
+header .menu ul li:nth-of-type(6) a{
+    width:18px; height: 15px;
+    background: url('css_sprites.png') -249px -186px;
+}
+header .menu ul li:nth-of-type(7) a{
+    width: 18px; height: 18px;
+    background: url('css_sprites.png') -249px -148px;
+}
+@keyframes menu{
+    0%{
+    letter-spacing: -.5em;
+        opacity: 0;
+    }
+    25%{
+        opacity:0.2;
+    }
+    50%{
+    
+        opacity:0.6;
+    }
+    75%{
+    
+        opacity:0.8;
+    }
+    100%{
+    
+        opacity:1;
+    }
+}
+header .menu ul li a:hover{
+    color: #fce38a;
+    transition: 2s all ease-out;
+}
+header .menu ul li:first-of-type a::after{
+width: 100%;
+left: -14px ;
+}
+header .menu ul li a::after{
+display: block;
+content:"";
+height: 2px;
+width:0;
+background-color: #fce38a;
+position: absolute;
+bottom:-5px;
+left:33%;
+}
+header .menu ul li:not(:first-of-type) a:hover::after{
+transform: translateX(-50%);
+transition: .5s all ease-out;
+width: 100%;
+}
+
+.header-container .baner{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-container .baner span:first-of-type{
+font-family: "Kaushan Script";
+font-size: 72px;
+margin: 179px 0 20px 0;
+}
+.header-container .baner span:last-of-type{
+font-family: Montserrat;
+font-size: 150px;
+font-weight: 700;
+line-height: 140px;
+text-transform: uppercase;
+text-align-last: center;
+
+}
+.header-container .slider{
+    display: flex;
+    justify-content: space-between;
+}
+.header-container .slider li:not(:first-of-type){
+    opacity: 0.7;
+    margin-left: 30px;
+}
+.header-container .slider li{
+    width:25%;
+}
+.header-container .baner hr{
+width: 60px;
+border: none;
+border-top: solid #fff 3px;
+margin: 70px 0 50px 0;
+}
+.header-container .baner button{
+width: 160px;
+height: 40px;
+border: 3px solid #ffffff;
+color: #ffffff;
+background-color: rgba(255, 255, 255,0.0);
+text-transform: uppercase;
+margin-bottom: 157px;
+}
+.header-container .baner button:hover{
+    background-color: rgba(0,0,0,0.4);
+    color: #ffffff;
+}
+.header-container .slider li a{
+color: #ffffff;
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 400;
+text-transform: uppercase;
+display: block;
+padding: 25px 0 28px 0;
+}
+.header-container .slider li:hover{
+    opacity: 1;
+}
+.header-container .slider li > a span span{
+font-size: 24px;
+font-weight: 700;
+font-family: "Montserrat - Bold";  
+margin-right: 10px; 
+}
+.header-container .slider li > span{
+    display: flex;
+    
+
+}
+.header-container .slider span hr:last-of-type{
+border: none;
+border-top: solid #fff 3px;
+max-width: 100%;
+flex-grow: 1;
+}
+.header-container .slider li:first-of-type hr:first-of-type{
+    border: none;
+    border-top: solid #f38181 3px;
+    max-width: 70px;
+    flex-grow: 1;
+    
+
+}
+main .what-we-do{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 91px 0 110px 0;    
+}
+main .what-we-do > span:first-of-type{
+color: #333333;
+font-family: "Kaushan Script";
+font-size: 24px;
+font-weight: 400;
+}
+main .what-we-do > span:last-of-type{
+color: #333333;
+font-family: Montserrat;
+font-size: 30px;
+font-weight: 700;
+text-transform: uppercase;
+margin: 5px 0 40px 0;
+}
+main .what-we-do > p{
+color: #999999;
+font-family: Roboto;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+padding: 47px 63px 100px 63px;
+text-align-last: center ;
+
+}
+main .what-we-do > hr{
+    border: none;
+    border-top: solid #f38181 3px;
+    width: 60px;    
+}
+main .what-we-do .container-img div:not(:last-of-type) {
+margin-right: 30px;
+}
+main .what-we-do .container-img > div{
+    width:calc(33.33% - 60px);  
+    font-size: 0;
+    position: relative;
+    
+}
+main .what-we-do .container-img > div img{
+    width: 100%;
+}
+main .what-we-do .container-img{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}   
+main .what-we-do .container-img > div .img-bg{
+    background-image: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    opacity:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 700;
+text-transform: uppercase;
+     
+}
+main .what-we-do .container-img > div:hover .img-bg{
+    transition:opacity .5s ease-in-out; 
+    opacity: 1;
+}
+main .what-we-do .container-img > div .img-bg a{
+    width: 32px; height: 23px;
+    background: url('css_sprites.png') -197px -110px;
+    margin-bottom: 10px;
+}
+main .what-we-do .container-img > div:hover{
+    box-shadow: 10px 10px 5px #95e1d3;
+    transition:.5s ease-in-out;
+}
+main .rectangle-bg{
+    background-color: #95e1d3;
+}
+main .rectangle-bg ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+ color: #ffffff;
+font-family: Montserrat;
+font-size: 72px;
+font-weight: 700;
+text-transform: uppercase;
+}
+main .rectangle-bg li{
+    border-left: 1px solid rgba(255,255,255,0.3);
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 20%;
+    padding: 89px 10px 90px 10px;
+
+}
+
+main .rectangle-bg li:last-of-type{
+    border-right: 1px solid rgba(255,255,255,0.3);
+}
+main .rectangle-bg li > span:last-of-type{
+font-size: 14px;
+font-weight: 400;
+text-align: center;
+}
+.span-first{
+    color: #333333;
+    font-family: "Kaushan Script";
+    font-size: 24px;
+}
+.span-last{
+    color: #333333;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.hr-red{
+    border: none;
+    border-top: solid #f38181 3px;
+    width: 60px; 
+}
+.container-fluid .AmazingServices {
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+padding: 109px 0 122px 0;
+}
+.container-fluid .AmazingServices ul li h6{
+    color: #333333;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+text-transform: uppercase;
+}
+.container-fluid .AmazingServices ul li span{
+    display: block;
+}
+.container-fluid .AmazingServices ul li p{
+color: #999999;
+font-family: Roboto;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+}
+.container-fluid .AmazingServices .ul-top-AmazingServices li:first-of-type  span{
+    
+}
