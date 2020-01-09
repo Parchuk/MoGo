@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="slick/slick.css">
-    <link rel="stylesheet" href="slick/slick-theme.css">
     <title>MoGo</title>
 
 </head>
@@ -16,17 +14,19 @@
     <header>
         <div class="container-fluid header-bg">
             <div class="container header-container">
-                <div class="menu">
-                    <h1>MoGo</h1>
-                    <ul>
-                        <li><a href="#" class="active-a">About</a></li>
-                        <li><a href="#">service</a></li>
-                        <li><a href="#">work</a></li>
-                        <li><a href="#">blog</a></li>
-                        <li><a href="#">contact</a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                    </ul>
+                <div class="menu" id="top-menu" id="about">
+                    <div class="menu">
+                        <h1>MoGo</h1>
+                        <ul>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#service">service</a></li>
+                            <li><a href="#work">work</a></li>
+                            <li><a href="#blog">blog</a></li>
+                            <li><a href="#contact">contact</a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="baner">
                     <span>Creative Template</span>
@@ -66,7 +66,7 @@
     </header>
      <main>
         <div class="container-fluid">
-            <div class="container what-we-do">
+            <div class="container what-we-do" id="about">
                 <span>What we do</span>
                 <span>Story about us</span>
                 <hr>
@@ -120,7 +120,7 @@
                 </ul>
             </div>
         </div>
-        <div class="container-fluid">
+        <div class="container-fluid" id="service">
             <div class="container AmazingServices">
                 <span class="span-first">We work with</span>
                 <span class="span-last">Amazing Services</span>
@@ -345,7 +345,7 @@
             </div>
         </div>
         <div class="container-fluid">
-            <div class="container service some-of-our-work">
+            <div class="container service some-of-our-work" id="work">
                 <span class="span-first">What we do</span>
                 <span class="span-last">some of our work</span>
                 <hr class="hr-red">
@@ -528,7 +528,7 @@
         </div>
 
         <div class="container-fluid">
-            <div class="container our-stories">
+            <div class="container our-stories" id="blog">
                 <span class="span-first">Our stories</span>
                 <span class="span-last">Latest blog</span>
                 <hr class="hr-red">
@@ -599,7 +599,7 @@
                 </ul>
             </div>
         </div>
-        <div class="container-fluid map-bg">
+        <div class="container-fluid map-bg" id="contact">
             <div class="map-bg-white">
                 <div class="container">
                     <span></span>
@@ -623,7 +623,10 @@
 
 
     </main>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/headhesive.min.js"></script>
     <script src="js/script.js"></script>
+
 </body>
 
 </html>
