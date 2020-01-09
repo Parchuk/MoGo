@@ -29,8 +29,8 @@
 }
 
 .bg-facebook__1_ {
-    width: 8px; height: 16px;
-    background: url('css_sprites.png') -289px -10px;
+        width: 8px; height: 16px;
+        background: url('css_sprites.png') -289px -10px;
 }
 
 .bg-facebook {
